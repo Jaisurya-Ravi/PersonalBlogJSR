@@ -1,32 +1,28 @@
 theme: jekyll-theme-minimal
-
 <!DOCTYPE html>
 <html lang="en">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Your Blog Title</title>
+    <title>About Us - Your Blog Title</title>
     <style>
         /* Your existing CSS styles */
 
-        /* Additional styles for the home page */
-        .featured-post {
-            background-color: #e0e0e0;
+        /* Additional styles for the About page */
+        .about-section {
+            max-width: 800px;
+            margin: 2em auto;
             padding: 1em;
-            margin-bottom: 2em;
+            background-color: #fff;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
         }
 
-        .featured-post h2 {
+        .about-section h2 {
             color: #333;
         }
 
-        .post-list {
-            list-style: none;
-            padding: 0;
-        }
-
-        .post-list li {
-            margin-bottom: 1em;
+        .about-content {
+            line-height: 1.6;
         }
     </style>
 </head>
@@ -37,34 +33,19 @@ theme: jekyll-theme-minimal
     </header>
 
     <nav>
-        <a href="#">Home</a>
-        <a href="#">About</a>
-        <a href="#">Contact</a>
+        <a href="/">Home</a>
+        <a href="/about">About</a>
+        <a href="/contact">Contact</a>
     </nav>
 
     <main>
-        <section class="featured-post">
-            <h2>Featured Post</h2>
-            <article>
-                <h2>Featured Blog Post Title</h2>
-                <p>Published on January 10, 2024</p>
-                <p>This is a special blog post that you want to feature on the home page. It could be your latest or most important post.</p>
-            </article>
-        </section>
-
-        <section>
-            <h2>Recent Posts</h2>
-            <ul class="post-list">
-                <li>
-                    <h3>Blog Post Title 1</h3>
-                    <p>Published on January 8, 2024</p>
-                </li>
-                <li>
-                    <h3>Blog Post Title 2</h3>
-                    <p>Published on January 9, 2024</p>
-                </li>
-                <!-- Add more recent posts as needed -->
-            </ul>
+        <section class="about-section">
+            <h2>About Us</h2>
+            <div class="about-content">
+                <p>Welcome to Your Blog, where we share stories, insights, and knowledge on various topics. Our mission is to provide valuable and engaging content to our readers.</p>
+                <p>At Your Blog, we believe in the power of words to inspire and educate. Whether you're looking for the latest trends, informative guides, or just a good read, you've come to the right place.</p>
+                <p>Feel free to explore our blog and connect with us. We appreciate your time and interest in what we have to offer.</p>
+            </div>
         </section>
     </main>
 
@@ -74,3 +55,4 @@ theme: jekyll-theme-minimal
 
 </body>
 </html>
+
